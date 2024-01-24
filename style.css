@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.container h1 span {
+    color: rgb(28, 119, 119);
+}
+
+.container textarea {
+    width: 600px;
+    height: 250px;
+    background: white;
+    color: black;
+    font-size: 15px;
+    /* border: 0; */
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px
+}
+
+textarea::placeholder {
+    font-size: 18px;
+    color: black;
+}
+
+.row {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background: grey ;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    height: 50px;
+}
+button i{
+    margin: 2px;
+}
+select{
+    flex: 1;
+    color: black;
+    background: grey;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    appearance: none;
+}
